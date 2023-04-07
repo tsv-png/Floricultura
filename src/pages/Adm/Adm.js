@@ -1,10 +1,18 @@
 import React from "react";
 import {useNavigate, Link} from 'react-router-dom';
-import Adm from "./Adm";
+import './Adm.css';
 
-function adm(){
+
+function Adm(){
     return(
-        <h1>alo</h1>
+        <div className="container">
+            <h3>helooo</h3>
+            <div className="row">
+            <a href="#" className="btn btn-primary">BOTAO</a>
+                </div>
+            </div>
+
+        
     );
 }
 
