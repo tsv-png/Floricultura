@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.btn-cadastrar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 15px;
+  gap: 10px;
+  width: 211px;
+  height: 30px;
+  color: #ffffff;
+  background: #0123ff;
+  border-radius: 10px;
+  outline: none;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+}

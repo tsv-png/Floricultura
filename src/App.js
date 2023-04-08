@@ -7,6 +7,7 @@ import Adm from "./pages/Adm/Adm";
 import Home from "./pages/Home";
 import Cadastroadm from "./pages/Cadastroadm";
 import Redefinicao from "./pages/Redefinicao";
+import Enviado from "./pages/Enviado";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/cadastroadm" element={<Cadastroadm />} />
         <Route path="/redefinicao" element={<Redefinicao />} />
+        <Route path="/enviado" element={<Enviado />} />
       </Routes>
     </Router>
   );
