@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import './Login.css';
 import flower from '../../assets/flower.png';
-
+import { Link } from "react-router-dom";
 function Login (){
     return(
         <div className="container">
@@ -20,12 +20,14 @@ function Login (){
                         <div className="form-group">
                             <input type="password" className="form" placeholder="Senha" />
                         </div>
-                        <button type="submit" className="btn-entrar">Entrar</button>
+                        <button type="submit" className="btn-entrar">ENTRAR</button>
                         </div>
-                
-                   <span className="esqueceu-senha"> <a href="#">Esqueceu a Senha?</a></span>
+                     <Link className="esqueceu-senha" to='../pages/Redefinicao/Redefinicao.js'>Esqueceu a Senha?</Link>
                    <br></br>
-                   <span className="registre-se">Não tem uma conta? <a href="#">Registre-se</a></span>
+                   <div className="pai">
+                     <a className="registra">Não tem uma conta?</a><Link className="registre-se" to='../pages/Cadastroadm/Cadastroadm.js'>Registre-se</Link>
+                   </div>
+                   
                 </div>
             </div>
            </div>
