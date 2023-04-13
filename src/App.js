@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Cadastroadm from "./pages/Cadastroadm";
 import Redefinicao from "./pages/Redefinicao";
 import Enviado from "./pages/Enviado";
+import ProdutoPage from "./pages/ProdutoPage/ProdutoPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/cadastroadm" element={<Cadastroadm />} />
         <Route path="/redefinicao" element={<Redefinicao />} />
         <Route path="/enviado" element={<Enviado />} />
+        <Route path="/produto" element={<ProdutoPage />} />
       </Routes>
     </Router>
   );

@@ -19,7 +19,7 @@ function Adm() {
       </div>
       <div className="adm-content">
         <div className="adm-content-left">
-          <img src={margarida} />
+          <img src={margarida} alt=""/>
         </div>
         <div className="adm-content-right">
           <h1 className="adm-title">Adicionar produto no site</h1>

@@ -1,7 +1,6 @@
 import React from "react";
 import "./Enviado.css";
 import flower from "../../assets/flower.png";
-import { Link } from "react-router-dom";
 function Enviado() {
     return(
             <div className="container">
