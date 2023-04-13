@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route exact path="/login" element={<Login />} />
         <Route path="/adm" element={<Adm />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/cadastroadm" element={<Cadastroadm />} />
         <Route path="/redefinicao" element={<Redefinicao />} />
         <Route path="/enviado" element={<Enviado />} />

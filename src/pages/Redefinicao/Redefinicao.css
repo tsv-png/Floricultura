@@ -15,7 +15,7 @@ form {
 }
 
 .title-form {
-  font-family: "Inter", sans-serif;
+  
   font-size: 15px;
   color: #fff;
   margin-bottom: 5px;
@@ -37,5 +37,5 @@ form {
   border-radius: 10px;
   outline: none;
   font-size: 12px;
-  font-family: "Inter", sans-serif;
+  
 }
