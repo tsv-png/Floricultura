@@ -3,7 +3,7 @@ import Logo from "../../assets/flower.png";
 const Footer = () => {
   return (
     <footer className="footer">
-      <img src={Logo} className="footer-logo" />
+      <img src={Logo} className="footer-logo" alt="" />
       <div className="footer-links">
         <div className="footer-links-section">
           <h3 className="footer-links-section-title">Sua conta</h3>

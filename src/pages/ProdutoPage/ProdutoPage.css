@@ -1,0 +1,18 @@
+.produto-description{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.produto-description-image {
+    width: 40%;
+    height: auto;
+}
+
+.produto-description-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.botao-comprar {
+    width: 100%;
+}
