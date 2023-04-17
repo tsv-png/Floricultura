@@ -1,21 +1,10 @@
 import flor from "./../../assets/flor.png";
 import "./ProdutoPage.css";
-
-import floweradmin from "../../assets/floweradm.png";
-import listadmin from "../../assets/listadm.png";
-import useradmin from "../../assets/useradm.png";
+import Header from "../../components/Header/Header";
 const ProdutoPage = () => {
   return (
     <>
-      <div className="topnavbar">
-        <div className="topnavbar-left">
-          <img src={floweradmin} alt="logo" />
-        </div>
-        <div className="topnavbar-right">
-          <img className="useradm" src={useradmin} alt="useradm" />
-          <img className="listadm" src={listadmin} alt="listadm" />
-        </div>
-      </div>
+      <Header/>
       <div className="produto-page-content">
         <div className="produto-description">
           <img src={flor} alt="" className="produto-description-image" />

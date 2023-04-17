@@ -1,22 +1,12 @@
 import React from "react";
 import "./Adm.css";
-import floweradmin from "../../assets/floweradm.png";
-import listadmin from "../../assets/listadm.png";
-import useradmin from "../../assets/useradm.png";
 import margarida from "../../assets/maragrida.png";
+import Header from "../../components/Header/Header";
 
 function Adm() {
   return (
     <div className="adm">
-      <div className="topnavbar">
-        <div className="topnavbar-left">
-          <img src={floweradmin} alt="logo" />
-        </div>
-        <div className="topnavbar-right">
-          <img className="useradm" src={useradmin} alt="useradm" />
-          <img className="listadm" src={listadmin} alt="listadm" />
-        </div>
-      </div>
+      <Header isAdm/>
       <div className="adm-content">
         <div className="adm-content-left">
           <img src={margarida} alt=""/>
