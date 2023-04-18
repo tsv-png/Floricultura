@@ -47,5 +47,11 @@ div[class^=styles-module_item-tracker] img {
         margin-top: 100px;
         margin-bottom: 0;
     }
+    .title {
+        font-size: 1.3rem;
+    }
+    .subtitle {
+        font-size: 1rem;
+    }
     
 }

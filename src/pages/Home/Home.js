@@ -10,7 +10,7 @@ import Header from "../../components/Header/Header";
 function Home() {
   return (
     <>
-      <Header/>
+      <Header />
       <Carousel
         show={3.5}
         swiping={true}
@@ -33,13 +33,11 @@ function Home() {
             <Produto />
             <Produto />
             <Produto />
-            <Produto />
           </div>
         </div>
         <div className="section">
           <h1 className="title">O que os clientes estão comprando</h1>
           <div className="produtos-grid">
-            <Produto />
             <Produto />
             <Produto />
             <Produto />

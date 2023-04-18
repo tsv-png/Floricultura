@@ -5,6 +5,11 @@
     
     font-size: 1rem;
 }
+.content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .produto-image {
     width: 100%;
     height: auto;
@@ -34,7 +39,7 @@
 }
 .botao-comprar {
 height: 45px;
-
+cursor: pointer;
 background: #CC6399;
 border: none;
 border-radius: 10px;
@@ -50,7 +55,20 @@ color: white;
     }
 
     .produto-image {
-        width: auto;
+        width: 95%;
         height: auto;
+    }
+    .botao-comprar {
+        height: 35px;
+        font-size: .7rem;
+    }
+
+    .produto-nome {
+        font-weight: bold;
+        font-size: .8rem;
+    }
+    
+    .produto-preco {
+        font-size: .6rem;
     }
 }

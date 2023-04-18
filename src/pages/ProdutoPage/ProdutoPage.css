@@ -52,3 +52,24 @@
 .green {
     color: #59C00B;
 }
+
+@media screen  and (max-width: 768px) {
+    .produto-description{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    .produto-description-image {
+        width: 95%;
+        height: auto;
+    }
+
+    .produto-description-content {
+        gap: 12px;
+    }
+    .produto-mais-info-title {
+        text-align: center;
+    }
+}
+    
